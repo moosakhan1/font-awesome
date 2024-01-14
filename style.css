@@ -1,0 +1,51 @@
+.parent {
+    min-height: 300px;
+    max-width: 600px;
+    border: 2px solid black;
+    margin: 21px auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    /* border: none; */
+    box-shadow: 12px 12px 12px #979595;
+    /* background-position: ce; */
+    background-image: url("https://media.istockphoto.com/id/1430634094/vector/watercolor-christmas-vector-card-with-green-leaves-and-holly-berries-trendy-square-template.jpg?s=2048x2048&w=is&k=20&c=lfdlIXUKQjRcYtN3-fkl8d_sqe24I7MNF3wl94rDwyU=");
+}
+  
+.box {
+    height: 80px;
+    width: 80px;
+
+    border: 2px solid black;
+    margin: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border-color: white;
+    color: #000;
+    border: none;
+
+}
+  
+i{
+    margin-bottom: 5px;
+    font-size: 20px;
+    text-shadow: 1px 1px 1px lightgrey;
+
+}
+span{
+    font-size: 14px;
+    font-weight: bold;
+
+}
+  
+.box:hover {
+
+    cursor: pointer;
+    background-color: #ffd43b;
+    color: white;
+    border-color:#ffd43b;
+}
